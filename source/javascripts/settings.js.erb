@@ -1,5 +1,5 @@
 var MEME_SETTINGS = {
-  creditText: 'Source:', // Default "credits" text.
+  creditText: 'Fuente:', // Default "credits" text.
   creditSize: 12, // Font size for credit text.
   downloadName: 'share', // The name of the downloaded image file (will have a ".png" extension added).
   fontColor: 'white', // Universal font color.
@@ -15,12 +15,12 @@ var MEME_SETTINGS = {
   fontSize: 24,
   // Font size options: set to empty array to disable font-size selector.
   fontSizeOpts: [
-    {text: 'Small text', value: 14},
-    {text: 'Medium text', value: 24},
-    {text: 'Large text', value: 36}
+    {text: 'Pequeño', value: 14},
+    {text: 'Medio', value: 24},
+    {text: 'Grande', value: 36}
   ],
 
-  headlineText: 'Write your own headline', // Default headline text.
+  headlineText: 'Escribe tu propio titular', // Default headline text.
   height: 378, // Canvas rendering height.
   imageScale: 1, // Background image scale.
   imageSrc: '', // Default background image path. MUST reside on host domain, or use base64 data.
@@ -36,9 +36,9 @@ var MEME_SETTINGS = {
   textAlign: 'left',
   // Text alignment options: set to empty array to disable alignment picker.
   textAlignOpts: [
-    {text: 'Align left', value: 'left'}, 
-    {text: 'Align center', value: 'center'},
-    {text: 'Align right', value: 'right'}
+    {text: 'Alinear izquierda', value: 'left'}, 
+    {text: 'Alinear centro', value: 'center'},
+    {text: 'Alinear derecha', value: 'right'}
   ],
 
   textShadow: false, // Text shadow toggle.
@@ -54,8 +54,8 @@ var MEME_SETTINGS = {
   // NOTE: only populate the "data" attributes with base64 data when concerned about Cross-Origin requests...
   // Otherwise, just leave "data" attributes blank and allow images to load from your server.
   watermarkOpts: [
-    {text: 'Vox', value: '<%= image_path("vox.png") %>', data: '<%= asset_data_uri("vox.png") %>'},
-    {text: 'The Verge', value: '<%= image_path("theverge.png") %>', data: ''}
+    {text: 'Mip', value: '<%= image_path("vox.png") %>', data: '<%= asset_data_uri("vox.png") %>'},
+    {text: 'Periodismo UMH', value: '<%= image_path("theverge.png") %>', data: ''}
   ],
 
   width: 755 // Canvas rendering width.
